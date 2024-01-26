@@ -1,0 +1,49 @@
+body {
+    background-color: darkred;
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    transition: 375ms linear;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.control {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 0;
+}
+
+#counter {
+    margin: 20px;
+}
+
+#reset {
+    display: block;
+}
